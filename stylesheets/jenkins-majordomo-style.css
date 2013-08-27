@@ -1,0 +1,58 @@
+#navigation {
+    margin-top: 12px;
+}
+
+#tasks {
+    border-bottom: 1px solid #CCC;
+    border-top: 1px solid #CCC;
+    border-right: 1px solid #CCC;
+    border-left: 1px solid #CCC;
+    padding-bottom: 10px;
+    font-size: 12px;
+    font-family: "Lucida Grande", verdana, arial, helvetica, sans-serif;
+}
+
+#tasks div {
+    height: 40px;
+    background-repeat: no-repeat;
+    background-position: left center;
+    line-heigh: 5px;
+}
+
+#tasks div:nth-child(even) {
+    background-color: #FAFAFA;
+    border-top: 1px solid #EEE;
+    border-bottom: 1px solid #EEE;
+}
+
+#tasks div img {
+    display: none;
+}
+
+#tasks div a {
+    margin-right: 35px;
+    position: relative;
+    line-height: 39px;
+}
+
+#tasks div:nth-child(2) {
+    background-image: url(https://cdn1.iconfinder.com/data/icons/fatcow/32/group.png);
+}
+
+#tasks div:nth-child(5) {
+    background-image: url(https://cdn1.iconfinder.com/data/icons/pixelo/32/id-card.png);
+}
+
+.warning {
+    border: 1px solid;
+    margin: 10px 0px;
+    padding: 15px 10px 15px 50px;
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    top: 8px;
+    position: relative;
+    color: #9F6000;
+    background-color: #FEEFB3;
+    font-size: 12px ;
+}
+
