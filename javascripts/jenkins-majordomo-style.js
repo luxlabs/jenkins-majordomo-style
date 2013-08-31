@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name       My Fancy New Userscript
+// @name       Jenkins-Majordomo-Style
 // @namespace  http://use.i.E.your.homepage/
 // @version    0.1
 // @description  enter something useful
