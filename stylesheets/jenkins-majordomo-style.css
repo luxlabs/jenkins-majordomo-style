@@ -1,38 +1,124 @@
+#content {
+    -moz-border-radius: 8px;
+    -moz-box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.05);
+    -webkit-border-radius: 7px;
+    -webkit-box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.05);
+    background: #fff;
+    border: 1px solid silver;
+    border-radius: 8px;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.05);
+}
+
+#main-panel-new-job table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+#main-panel-new-job table > tbody > tr:nth-child(1) > td:nth-child(1) {
+    background-color: #333;
+}
+
+#main-panel-new-job table > tbody > tr:nth-child(1) > td:nth-child(2) {
+    background-color: #333;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 23px;
+    padding: 20px;
+}
+
+#main-panel-new-job table > tbody > tr:nth-child(1) > td:nth-child(3) {
+    background-color: #333;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 20px;
+}
+
+#main-panel-new-job table > tbody > tr:nth-child(1) > td:nth-child(3) > input {
+    font-size: 16px;
+    height: 20px;
+    paddin-right: 10px;
+}
+
+#main-panel-new-job table > tbody > tr:nth-child(12) > td:nth-child(1) {
+    background-color: #FAFAFA ;
+    border-bottom: 1px solid #EEE ;
+    border-top: 1px solid #EEE ;
+    padding: 15px;
+}
+
+#main-panel-new-job table > tbody > tr:nth-child(15) > td:nth-child(1) {
+    background-color: #FAFAFA ;
+    border-bottom: 1px solid #EEE ;
+    border-top: 1px solid #EEE ;
+    padding: 15px;
+}
+
+#main-panel-new-job table > tbody > tr:nth-child(18) > td:nth-child(1) {
+    background-color: #FAFAFA ;
+    border-bottom: 1px solid #EEE ;
+    border-top: 1px solid #EEE ;
+    padding: 15px;
+}
+
+#main-panel-new-job table > tbody > tr:nth-child(3) > td:nth-child(1) {
+    background-color: #FAFAFA ;
+    border-bottom: 1px solid #EEE ;
+    border-top: 1px solid #EEE ;
+    padding: 15px;
+}
+
+#main-panel-new-job table > tbody > tr:nth-child(6) > td:nth-child(1) {
+    background-color: #FAFAFA ;
+    border-bottom: 1px solid #EEE ;
+    border-top: 1px solid #EEE ;
+    padding: 15px;
+}
+
+#main-panel-new-job table > tbody > tr:nth-child(9) > td:nth-child(1) {
+    background-color: #FAFAFA ;
+    border-bottom: 1px solid #EEE ;
+    border-top: 1px solid #EEE ;
+    padding: 15px;
+}
+
+#main-table {
+    background-image: none;
+}
+
 #navigation {
     margin-top: 12px;
 }
 
+#side-panel-new-job {
+    display: none;
+}
+
 #tasks {
     border-bottom: 1px solid #CCC;
-    border-top: 1px solid #CCC;
-    border-right: 1px solid #CCC;
     border-left: 1px solid #CCC;
-    padding-bottom: 10px;
-    font-size: 12px;
+    border-right: 1px solid #CCC;
+    border-top: 1px solid #CCC;
     font-family: "Lucida Grande", verdana, arial, helvetica, sans-serif;
+    font-size: 12px;
+    padding-bottom: 10px;
 }
 
 #tasks div {
-    height: 40px;
-    background-repeat: no-repeat;
     background-position: left center;
+    background-repeat: no-repeat;
+    height: 40px;
     line-heigh: 5px;
 }
 
-#tasks div:nth-child(even) {
-    background-color: #FAFAFA;
-    border-top: 1px solid #EEE;
-    border-bottom: 1px solid #EEE;
+#tasks div a {
+    line-height: 39px;
+    margin-right: 35px;
+    position: relative;
 }
 
 #tasks div img {
     display: none;
-}
-
-#tasks div a {
-    margin-right: 35px;
-    position: relative;
-    line-height: 39px;
 }
 
 #tasks div:nth-child(2) {
@@ -43,15 +129,402 @@
     background-image: url(https://cdn1.iconfinder.com/data/icons/pixelo/32/id-card.png);
 }
 
+#tasks div:nth-child(even) {
+    background-color: #FAFAFA;
+    border-bottom: 1px solid #EEE;
+    border-top: 1px solid #EEE;
+}
+
+#wrapper-new-job {
+    border: 1px solid #CCC;
+    padding: 20px;
+}
+
+.bottom-sticker-inner {
+    background: transparent;
+}
+
+.btn {
+    -moz-border-radius: 4px ;
+    -moz-box-shadow: inset 0 1px 0 rgba(255,255,255,.2), 0 1px 2px rgba(0,0,0,.05) ;
+    -webkit-border-radius: 4px ;
+    -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,.2), 0 1px 2px rgba(0,0,0,.05) ;
+    background-color: #f5f5f5 ;
+    background-image: linear-gradient(to bottom, #ffffff, #e6e6e6) ;
+    background-repeat: repeat-x ;
+    border: 1px solid #cccccc ;
+    border-bottom-color: #b3b3b3 ;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25) ;
+    border-radius: 4px ;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,.2), 0 1px 2px rgba(0,0,0,.05) ;
+    color: #333333 ;
+    /* IE7 inline-block hack */
+    /* Darken IE7 buttons by default so they stand out more given they won't have borders */
+    cursor: pointer ;
+    display: inline-block ;
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled = false) ;
+    font-size: 14px ;
+    line-height: 20px ;
+    margin-bottom: 0 ;
+    padding: 4px 12px ;
+    text-align: center ;
+    text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75) ;
+    vertical-align: middle ;
+}
+
+.btn-block {
+    -moz-box-sizing: border-box ;
+    -webkit-box-sizing: border-box ;
+    box-sizing: border-box ;
+    display: block ;
+    padding-left: 0 ;
+    padding-right: 0 ;
+    width: 100% ;
+}
+
+.btn-block + .btn-block {
+    margin-top: 5px ;
+}
+
+.btn-danger {
+    background-color: #da4f49 ;
+    background-image: linear-gradient(to bottom, #ee5f5b, #bd362f) ;
+    background-repeat: repeat-x ;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25) ;
+    color: #ffffff ;
+    /* Darken IE7 buttons by default so they stand out more given they won't have borders */
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled = false) ;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25) ;
+}
+
+.btn-danger:active, .btn-danger.active {
+    background-color: #942a25 	;
+}
+
+.btn-danger:hover, .btn-danger:focus, .btn-danger:active, .btn-danger.active, .btn-danger.disabled, .btn-danger[disabled] {
+    background-color: #bd362f ;
+    color: #ffffff ;
+}
+
+.btn-info {
+    background-color: #49afcd ;
+    background-image: linear-gradient(to bottom, #5bc0de, #2f96b4) ;
+    background-repeat: repeat-x ;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25) ;
+    color: #ffffff ;
+    /* Darken IE7 buttons by default so they stand out more given they won't have borders */
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled = false) ;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25) ;
+}
+
+.btn-info:active, .btn-info.active {
+    background-color: #24748c 	;
+}
+
+.btn-info:hover, .btn-info:focus, .btn-info:active, .btn-info.active, .btn-info.disabled, .btn-info[disabled] {
+    background-color: #2f96b4 ;
+    color: #ffffff ;
+}
+
+.btn-inverse {
+    background-color: #363636 ;
+    background-image: linear-gradient(to bottom, #444444, #222222) ;
+    background-repeat: repeat-x ;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25) ;
+    color: #ffffff ;
+    /* Darken IE7 buttons by default so they stand out more given they won't have borders */
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled = false) ;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25) ;
+}
+
+.btn-inverse:active, .btn-inverse.active {
+    background-color: #080808 	;
+}
+
+.btn-inverse:hover, .btn-inverse:focus, .btn-inverse:active, .btn-inverse.active, .btn-inverse.disabled, .btn-inverse[disabled] {
+    background-color: #222222 ;
+    color: #ffffff ;
+}
+
+.btn-large {
+    -moz-border-radius: 6px ;
+    -webkit-border-radius: 6px ;
+    border-radius: 6px ;
+    font-size: 17.5px ;
+    padding: 11px 19px ;
+}
+
+.btn-large [class^="icon-"], .btn-large [class*=" icon-"] {
+    margin-top: 4px ;
+}
+
+.btn-link {
+    -moz-border-radius: 0 ;
+    -webkit-border-radius: 0 ;
+    border-color: transparent ;
+    border-radius: 0 ;
+    color: #0088cc ;
+    cursor: pointer ;
+}
+
+.btn-link, .btn-link:active, .btn-link[disabled] {
+    -moz-box-shadow: none ;
+    -webkit-box-shadow: none ;
+    background-color: transparent ;
+    background-image: none ;
+    box-shadow: none ;
+}
+
+.btn-link:hover, .btn-link:focus {
+    background-color: transparent ;
+    color: #005580 ;
+    text-decoration: underline ;
+}
+
+.btn-link[disabled]:hover, .btn-link[disabled]:focus {
+    color: #333333 ;
+    text-decoration: none ;
+}
+
+.btn-mini {
+    -moz-border-radius: 3px ;
+    -webkit-border-radius: 3px ;
+    border-radius: 3px ;
+    font-size: 10.5px ;
+    padding: 0 6px ;
+}
+
+.btn-mini [class^="icon-"], .btn-mini [class*=" icon-"] {
+    margin-top: -1px ;
+}
+
+.btn-primary {
+    background-color: #006dcc ;
+    background-image: linear-gradient(to bottom, #0088cc, #0044cc) ;
+    background-repeat: repeat-x ;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25) ;
+    color: #ffffff ;
+    /* Darken IE7 buttons by default so they stand out more given they won't have borders */
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled = false) ;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25) ;
+}
+
+.btn-primary.active, .btn-warning.active, .btn-danger.active, .btn-success.active, .btn-info.active, .btn-inverse.active {
+    color: rgba(255, 255, 255, 0.75) ;
+}
+
+.btn-primary:active, .btn-primary.active {
+    background-color: #003399 	;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .btn-primary.disabled, .btn-primary[disabled] {
+    background-color: #0044cc ;
+    color: #ffffff ;
+}
+
+.btn-small {
+    -moz-border-radius: 3px ;
+    -webkit-border-radius: 3px ;
+    border-radius: 3px ;
+    font-size: 11.9px ;
+    padding: 2px 10px ;
+}
+
+.btn-small [class^="icon-"], .btn-small [class*=" icon-"] {
+    margin-top: 0 ;
+}
+
+.btn-success {
+    background-color: #5bb75b ;
+    background-image: linear-gradient(to bottom, #62c462, #51a351) ;
+    background-repeat: repeat-x ;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25) ;
+    color: #ffffff ;
+    /* Darken IE7 buttons by default so they stand out more given they won't have borders */
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled = false) ;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25) ;
+}
+
+.btn-success:active, .btn-success.active {
+    background-color: #408140 	;
+}
+
+.btn-success:hover, .btn-success:focus, .btn-success:active, .btn-success.active, .btn-success.disabled, .btn-success[disabled] {
+    background-color: #51a351 ;
+    color: #ffffff ;
+}
+
+.btn-warning {
+    background-color: #faa732 ;
+    background-image: linear-gradient(to bottom, #fbb450, #f89406) ;
+    background-repeat: repeat-x ;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25) ;
+    color: #ffffff ;
+    /* Darken IE7 buttons by default so they stand out more given they won't have borders */
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled = false) ;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25) ;
+}
+
+.btn-warning:active, .btn-warning.active {
+    background-color: #c67605 	;
+}
+
+.btn-warning:hover, .btn-warning:focus, .btn-warning:active, .btn-warning.active, .btn-warning.disabled, .btn-warning[disabled] {
+    background-color: #f89406 ;
+    color: #ffffff ;
+}
+
+.btn.active, .btn:active {
+    -moz-box-shadow: inset 0 2px 4px rgba(0,0,0,.15), 0 1px 2px rgba(0,0,0,.05) ;
+    -webkit-box-shadow: inset 0 2px 4px rgba(0,0,0,.15), 0 1px 2px rgba(0,0,0,.05) ;
+    background-image: none ;
+    box-shadow: inset 0 2px 4px rgba(0,0,0,.15), 0 1px 2px rgba(0,0,0,.05) ;
+    outline: 0 ;
+}
+
+.btn.disabled, .btn[disabled] {
+    -moz-box-shadow: none ;
+    -webkit-box-shadow: none ;
+    background-image: none ;
+    box-shadow: none ;
+    cursor: default ;
+    filter: alpha(opacity=65) ;
+    opacity: 0.65 ;
+}
+
+.btn:active, .btn.active {
+    background-color: #cccccc 	;
+}
+
+.btn:first-child {
+}
+
+.btn:focus {
+    outline: 5px auto -webkit-focus-ring-color ;
+    outline-offset: -2px ;
+}
+
+.btn:hover, .btn:focus {
+    -moz-transition: background-position 0.1s linear ;
+    -o-transition: background-position 0.1s linear ;
+    -webkit-transition: background-position 0.1s linear ;
+    background-position: 0 -15px ;
+    color: #333333 ;
+    text-decoration: none ;
+    transition: background-position 0.1s linear ;
+}
+
+.btn:hover, .btn:focus, .btn:active, .btn.active, .btn.disabled, .btn[disabled] {
+    background-color: #e6e6e6 ;
+    color: #333333 ;
+}
+
+.clearfix {
+}
+
+.clearfix:after {
+    clear: both ;
+}
+
+.clearfix:before, .clearfix:after {
+}
+
+.h2 {
+    -moz-border-radius-topleft: 8px;
+    -moz-border-radius-topright: 8px;
+    -webkit-border-top-left-radius: 8px;
+    -webkit-border-top-right-radius: 8px;
+    background: #EAF2F5 url(../images/smooth-gradient-blue.jpg);
+    border-bottom: 1px solid #AECCD7;
+    border-top: 1px solid white;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    color: #444;
+    letter-spacing: -1px;
+    margin: -6px -10px 10px;
+    padding: 12px 20px;
+    text-shadow: 0px 1px white;
+}
+
+.hide-text {
+    background-color: transparent ;
+    border: 0 ;
+    color: transparent ;
+    font: 0/0 a ;
+    text-shadow: none ;
+}
+
+.input-block-level {
+    -moz-box-sizing: border-box ;
+    -webkit-box-sizing: border-box ;
+    box-sizing: border-box ;
+    display: block ;
+    min-height: 30px ;
+    width: 100% ;
+}
+
 .warning {
+    background-color: #FEEFB3;
+    background-position: 10px center;
+    background-repeat: no-repeat;
     border: 1px solid;
+    color: #9F6000;
+    font-size: 12px ;
     margin: 10px 0px;
     padding: 15px 10px 15px 50px;
-    background-repeat: no-repeat;
-    background-position: 10px center;
-    top: 8px;
     position: relative;
-    color: #9F6000;
-    background-color: #FEEFB3;
-    font-size: 12px ;
+    top: 8px;
 }
+
+button.btn, input[type="submit"].btn {
+}
+
+button.btn.btn-large, input[type="submit"].btn.btn-large {
+}
+
+button.btn.btn-mini, input[type="submit"].btn.btn-mini {
+}
+
+button.btn.btn-small, input[type="submit"].btn.btn-small {
+}
+
+button.btn::-moz-focus-inner, input[type="submit"].btn::-moz-focus-inner {
+    border: 0 ;
+    padding: 0 ;
+}
+
+/*!
+ * Bootstrap v2.3.2
+ *
+ * Copyright 2013 Twitter, Inc
+ * Licensed under the Apache License v2.0
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Designed and built with all the love in the world @twitter by @mdo and @fat.
+ */
+
+h2 {
+    -moz-border-radius-topleft: 8px;
+    -moz-border-radius-topright: 8px;
+    -webkit-border-top-left-radius: 8px;
+    -webkit-border-top-right-radius: 8px;
+    background: #EAF2F5 url(../images/smooth-gradient-blue.jpg);
+    border-bottom: 1px solid #AECCD7;
+    border-top: 1px solid white;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    color: #444;
+    letter-spacing: -1px;
+    margin: -6px -10px 10px;
+    padding: 12px 20px;
+    text-shadow: 0px 1px white;
+}
+
+input[type="submit"].btn-block, input[type="reset"].btn-block, input[type="button"].btn-block {
+    width: 100% ;
+}
+
+yui-skin-sam {
+    display: none;
+}
+
