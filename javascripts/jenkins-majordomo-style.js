@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name       Jenkins-Majordomo-Style
+// @name       jenkins-majordomo-style
 // @namespace  http://use.i.E.your.homepage/
 // @version    0.1
 // @description  enter something useful
@@ -11,10 +11,12 @@
 var NEW_JOB_URL = "/view/All/newJob";
 
 //GLOBAL CSS
-var btns = $$('button'); for (var i = 0; i < btns.length; i++) { btns[i].className ='btn'}
+var btns = $$('button');
+for (var i = 0; i < btns.length; i++){ 
+    btns[i].className ='btn'; 
+}
 
 function appendParent(type,element){
-    var wrapper = document.createElement(type);
        
     // `element` is the element you want to wrap
     var parent = element.parentNode;
